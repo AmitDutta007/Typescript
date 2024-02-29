@@ -1,6 +1,11 @@
 "use strict";
-let ninja = {
-    name: 'Amit',
-    age: 27
+const person = {
+    name: 'Amit Dutta',
+    age: 27,
+    isStudent: true,
+    address: {
+        city: "Pune",
+        country: 'India'
+    }
 };
-console.log(ninja.name);
+console.log(person.address.country);
