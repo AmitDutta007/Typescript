@@ -13,3 +13,8 @@ calc = (numOne, numTwo, action) => {
         return numOne - numTwo;
     }
 };
+// example 3
+let logDetail;
+logDetail = (ninja) => {
+    console.log(`${ninja.name} is ${ninja.age} years old`);
+};

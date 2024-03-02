@@ -13,3 +13,13 @@ calc = (numOne: number, numTwo: number, action: string): number => {
         return numOne - numTwo;
     }
 }
+
+
+// example 3
+let logDetail: (obj: { name: string, age: number }) => void;
+
+type person = { name: string, age: number };
+
+logDetail = (ninja: person) => {
+    console.log(`${ninja.name} is ${ninja.age} years old`);
+}
